@@ -11,10 +11,13 @@ describe('SalesPersonListComponent', () => {
       declarations: [ SalesPersonListComponent ]
     })
     .compileComponents();
+  })
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(SalesPersonListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    
   });
 
   it('should create', () => {
